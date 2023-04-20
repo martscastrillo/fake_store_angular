@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+//estas variables deben tener un
 export class AppComponent {
-  title = 'my_store_angular';
+  name = 'Marta';
+  age = 32;
 }
