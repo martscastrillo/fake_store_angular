@@ -18,6 +18,9 @@ export class AppComponent {
     avatar:
       'https://s1.ppllstatics.com/lasprovincias/www/multimedia/202112/12/media/cortadas/gatos-kb2-U160232243326NVC-624x385@Las%20Provincias.jpg',
   };
+  names: string[] = ['Laura', 'Moni', 'Ale'];
+  newName = '';
+
   toggleButton() {
     this.btnDisable = !this.btnDisable;
   }
@@ -32,5 +35,12 @@ export class AppComponent {
   changeName(event : Event){
     const element = event.target as HTMLInputElement;
     this.person.name = element.value;
+  }
+  addName(){
+    this.names.push(this.newName);
+    this.newName = '';
+  }
+  deleteName(index:number){
+    this.names.splice(index, 1);
   }
 }
