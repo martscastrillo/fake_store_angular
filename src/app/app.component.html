@@ -1,8 +1,28 @@
+<!-- ngSwitch -->
+<h2>ngSwitch</h2>
+<input type="text" required [(ngModel)]="person.name" />
+<div [ngSwitch]="person.name">
+    <p *ngSwitchCase="'marta'">La persona es Marta</p>
+    <p *ngSwitchCase="'ale'">La persona es Ale</p>
+    <p *ngSwitchCase="'ursu'">La persona es Ursu</p>
+    <p *ngSwitchDefault>No hace match</p>
+</div>
+<!-- <p *ngIf="person.name === 'marta'">La persona es Marta</p>
+<p *ngIf="person.name === 'ale'">La persona es Ale</p>
+<p *ngIf="person.name === 'ursu'">La persona es Ursu</p> -->
+<!-- *ngFor Objs -->
+<h2>*ngFor Objs</h2>
+<div>
+    <div *ngFor="let product of products">
+        <img width="250" [src]="product.image" alt="image">
+        <h3>{{product.price}}</h3>
+        <p>{{product.name}}</p>
+    </div>
+</div>
 <!-- *ngFor -->
 <h2>*ngFor</h2>
 <input type="text" required [(ngModel)]="newName" />
 <button (click)="addName()">Add name</button>
-
 <ul>
     <li *ngIf="names.length === 0">No hay nombres, la lista está vacía</li>
     <li *ngFor="let name of names, index as i">
