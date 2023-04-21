@@ -12,7 +12,7 @@
 <p *ngIf="person.name === 'ursu'">La persona es Ursu</p> -->
 <!-- *ngFor Objs -->
 <h2>*ngFor Objs</h2>
-<div>
+<div class="products--grid">
     <div *ngFor="let product of products">
         <img width="250" [src]="product.image" alt="image">
         <h3>{{product.price}}</h3>
@@ -72,4 +72,4 @@
 <h2>{{ "Hello world".repeat(3) }}</h2>
 <p>3 + 3 = {{ 3 + 3 }}</p>
 <h3>Hola soy {{name}} tengo {{age}} años</h3>
-<img src={{img}} alt="">
+<img width="100" src={{img}} alt="">
