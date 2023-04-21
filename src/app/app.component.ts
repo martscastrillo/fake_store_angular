@@ -14,6 +14,11 @@ export class AppComponent {
   img =
     'https://s1.ppllstatics.com/lasprovincias/www/multimedia/202112/12/media/cortadas/gatos-kb2-U160232243326NVC-624x385@Las%20Provincias.jpg';
   btnDisable = true;
+  register = {
+    name: '',
+    email: '',
+    password: ''
+  }
   person = {
     name: 'Marta',
     age: 32,
@@ -81,5 +86,8 @@ export class AppComponent {
   }
   deleteName(index:number){
     this.names.splice(index, 1);
+  }
+  onRegister(){
+    console.log(this.register);
   }
 }
