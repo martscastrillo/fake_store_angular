@@ -8,6 +8,7 @@ import { Product } from './product.model';
 })
 //estas variables deben tener un acceso publico
 export class AppComponent {
+  widthImg = 10;
   name = 'Marta';
   age = 32;
   img =
