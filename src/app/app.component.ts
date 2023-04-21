@@ -36,33 +36,39 @@ export class AppComponent {
     {
       name: 'EL mejor juguete',
       price: 565,
-      image: './assets/images/toy.jpg',
+      image: './assets/images/camera0.jpg',
+      category: 'all',
+    },
+    {
+      name: 'EL mejor juguete',
+      price: 565,
+      image: './assets/images/camera1.jpg',
       category: 'all',
     },
     {
       name: 'Bicicleta casi nueva',
       price: 356,
-      image: './assets/images/bike.jpg'
+      image: './assets/images/camera2.jpg'
     },
     {
       name: 'Colleción de albumnes',
       price: 34,
-      image: './assets/images/album.jpg'
+      image: './assets/images/camera3.jpg'
     },
     {
       name: 'Mis libros',
       price: 23,
-      image: './assets/images/books.jpg'
+      image: './assets/images/camera4.jpg'
     },
     {
       name: 'Casa para perro',
       price: 34,
-      image: './assets/images/house.jpg'
+      image: './assets/images/camera5.jpg'
     },
     {
       name: 'Gafas',
       price: 3434,
-      image: './assets/images/glasses.jpg'
+      image: './assets/images/camera6.jpg'
     }
   ];
   toggleButton() {
