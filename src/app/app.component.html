@@ -1,13 +1,39 @@
+<!-- *ngIf -->
+<h2>*ngIf</h2>
+<input type="text" required [(ngModel)]="person.name" />
+<p *ngIf="person.name === 'marta'"> Soy Marta</p>
+<p *ngIf="person.name === 'raquel' && person.age === 18; else elseBlock"> Soy Raquel</p>
+<ng-template #elseBlock>
+    <p>Bloque de else</p>
+</ng-template>
+<!-- data binding con ng model -->
+<h2>NgModel</h2>
+<p>Name {{person.name}}</p>
+<input type="text" #nameInput="ngModel" required [(ngModel)]="person.name" />
+<p>Valid: {{nameInput.valid}}</p>
+<p>Edad {{person.age}}</p>
+<input type="number" max="48" min="10" #ageInput="ngModel" required [(ngModel)]="person.age" />
+<p>Valid: {{ageInput.valid}}</p>
 <!-- event binding -->
 <h2>Eventos</h2>
 <button [disabled]="btnDisable">Enviar</button>
 <button (click)="toggleButton()">Toggle Button</button>
 <p>Edad {{person.age}}</p>
 <button (click)="ageIncrease()">Age ++</button>
+<div class="box" (scroll)="onScroll($event)">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni voluptatibus laudantium dolor
+        exercitationem fugit sint officiis nam distinctio porro eaque nulla, voluptate delectus veritatis commodi
+        architecto neque possimus debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit magni
+        voluptatibus laudantium dolor
+        exercitationem fugit sint officiis nam distinctio porro eaque nulla, voluptate delectus veritatis commodi
+        architecto neque possimus debitis.</p>
+</div>
+<p>Name {{person.name}}</p>
+<input type="text" [value]="person.name" (keyup)="changeName($event)">
 <h1>Hello world</h1>
 <!-- property binding -->
 <button [disabled]="btnDisable">Enviar</button>
-<input type="text" [placeholder]="person.name">
+<input type="text" [value]="person.name">
 <progress max="100" [value]="person.age"></progress>
 <img width="100" [src]="person.avatar">
 <!--  string interpolation -->
