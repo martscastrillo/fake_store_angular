@@ -22,6 +22,11 @@ export class AppComponent {
   };
   names: string[] = ['Laura', 'Moni', 'Ale'];
   newName = '';
+  box = {
+    width: 100,
+    height: 100,
+    background: 'red',
+  };
   products : Product[] = [
     {
       name: 'EL mejor juguete',
