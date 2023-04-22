@@ -9,17 +9,10 @@
   background-color: rgb(0, 54, 36);
   background-image: url(./../assets/images/pexels-zukiman-mohamad-22185.jpg);
   background-size: cover;
-  background-position:center -290px ;
+  background-position:center ;
   background-repeat: no-repeat;
- 
-  @media screen and (max-width: 62em) {
-    background-position:center -200px ;
-   
-  }
-   @media screen and (max-width: 40em) {
-    background-position:center -90px ;
-   
-  }
+  height: 140px;
+
 }
 
 .products--grid {
