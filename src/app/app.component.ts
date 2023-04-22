@@ -34,40 +34,40 @@ export class AppComponent {
   };
   products : Product[] = [
     {
-      name: 'EL mejor juguete',
-      price: 565,
+      name: 'NIKON D780 + 24-120/4 G VR ED',
+      price: 1.565,
       image: './assets/images/camera0.jpg',
       category: 'all',
     },
     {
       name: 'EL mejor juguete',
-      price: 565,
+      price: 865,
       image: './assets/images/camera1.jpg',
       category: 'all',
     },
     {
-      name: 'Bicicleta casi nueva',
-      price: 356,
+      name: 'FUJIFILM Mini Evo',
+      price: 969,
       image: './assets/images/camera2.jpg'
     },
     {
       name: 'Colleción de albumnes',
-      price: 34,
+      price: 1.434,
       image: './assets/images/camera3.jpg'
     },
     {
       name: 'Mis libros',
-      price: 23,
+      price: 923,
       image: './assets/images/camera4.jpg'
     },
     {
       name: 'Casa para perro',
-      price: 34,
+      price: 1.334,
       image: './assets/images/camera5.jpg'
     },
     {
       name: 'Gafas',
-      price: 3434,
+      price: 1.434,
       image: './assets/images/camera6.jpg'
     }
   ];

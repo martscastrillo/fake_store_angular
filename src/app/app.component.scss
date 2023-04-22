@@ -1,21 +1,30 @@
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
 .box {
+ 
   width: 200px;
   height: 200px;
   overflow: auto;
-  background-color: aquamarine;
+ 
+}
+h3{
+  margin-left: 40px;
 }
 .products--grid {
   display: flex;
   flex-direction: column;
-
+  margin-left: 40px;
+  margin-right: 40px;
   div {
     img {
       width: 100%;
       border-radius: 10px;
     }
-    h2,
-    p {
-      margin: 0;
+    h4{
+      color: white;
     }
   }
   @media screen and (min-width: 40em) {
