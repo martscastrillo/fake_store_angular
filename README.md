@@ -1,6 +1,7 @@
 # MyStoreAngular
 
 **** LOADING ****
+<img width="2044" alt="Captura de Pantalla 2023-04-22 a las 14 33 28" src="https://user-images.githubusercontent.com/112553001/233784995-b7c9db31-b8bb-4501-a325-e82e2b8de87a.png">
 
 <!-- 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
