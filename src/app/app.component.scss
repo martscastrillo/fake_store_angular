@@ -1,24 +1,41 @@
 
 .h1{
-  margin: 30px;
+ 
+  padding: 50px;
   text-transform: uppercase;
   text-align: center;
   color: white;
   font-size: 50px;
+  background-color: rgb(0, 54, 36);
+  background-image: url(./../assets/images/pexels-zukiman-mohamad-22185.jpg);
+  background-size: cover;
+  background-position:center -290px ;
+  background-repeat: no-repeat;
+ 
+  @media screen and (max-width: 62em) {
+    background-position:center -200px ;
+   
+  }
+   @media screen and (max-width: 40em) {
+    background-position:center -90px ;
+   
+  }
 }
 
-h3{
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
 .products--grid {
+ 
   display: flex;
   flex-direction: column;
-  margin:  0 40px 70px 40px;
+  margin:  40px 40px 70px 40px;
+
   div {
     img {
       width: 100%;
       border-radius: 10px;
+      &:hover{
+        opacity: 0.9;
+        cursor: pointer;
+      }
     }
     h4{
       color: white;
@@ -38,6 +55,7 @@ h3{
   display: flex;
   flex-direction: column;
   gap: 20px;
+ 
 }
 .messageError{
     background-color: red;
@@ -54,8 +72,8 @@ h3{
 }
 
 footer{
-  background-color: aqua;
-  color: black;
+  background-color: rgb(0, 54, 36);
+  color:rgb(255, 213, 0);
   display: flex;
   align-items: center;
   justify-content: center;
