@@ -78,7 +78,14 @@
     <h1 class="h1">cam shop</h1>
 </header>
 
+<nav>
+    <ul class="navlist">
+        <li>Home</li>
+        <li>products</li>
+        <li>Cart</li>
+    </ul>
 
+</nav>
 <div class="products--grid">
     <div *ngFor="let product of products" class="displaybox">
         <img width="250" [src]="product.image" alt="image">
