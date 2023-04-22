@@ -1,23 +1,20 @@
-h1{
+
+.h1{
+  margin: 30px;
   text-transform: uppercase;
   text-align: center;
   color: white;
+  font-size: 50px;
 }
-.box {
- 
-  width: 200px;
-  height: 200px;
-  overflow: auto;
- 
-}
+
 h3{
   margin-left: 40px;
+  margin-bottom: 20px;
 }
 .products--grid {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin:  0 40px 70px 40px;
   div {
     img {
       width: 100%;
@@ -36,7 +33,12 @@ h3{
     grid-template-columns: repeat(5, 1fr);
   }
 }
+.displaybox{
 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .messageError{
     background-color: red;
     color: white;
@@ -50,13 +52,20 @@ h3{
     display: flex;
     grid-template-columns: repeat(2, 1fr);
 }
-.line-error{
-    height: 0;
-    border-bottom: 1px solid;
-    &.valid{
-        color: green;
-     }
-     &.invalid{
-        color: red;
-     }
+
+footer{
+  background-color: aqua;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 25px;
+  margin: 0cm;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  p{
+    font-size: 12px;
+  }
 }
