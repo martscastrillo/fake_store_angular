@@ -72,7 +72,7 @@
 <p *ngIf="person.name === 'ale'">La persona es Ale</p>
 <p *ngIf="person.name === 'ursu'">La persona es Ursu</p> -->
 <!-- *ngFor Objs -->
-<header>
+<header id="top">
 
 
     <h1 class="h1">cam shop</h1>
@@ -80,18 +80,36 @@
 
 <nav>
     <ul class="navlist">
-        <li>Home</li>
-        <li>products</li>
-        <li>Cart</li>
+        <li>Home<i class="fa-solid fa-house faa-solid"></i></li>
+        <li>products<i class="fa-solid fa-heart faa-solid"></i></li>
+        <li>Cart<i class="fa-solid fa-cart-shopping faa-solid"></i></li>
     </ul>
 
 </nav>
+<div class="searchbox">
+
+
+    <div class="searchdiv">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input class="search-input" style="vertical-align: 4px; width: 255px;" type="search" name="focus"
+            placeholder="Search" id="search-input" value="">
+
+
+    </div>
+</div>
+<a href="app.component.html#top" class="anchorstyle arrowdiv">
+    <i class=" fa-solid fa-circle-arrow-up"></i>
+
+</a>
+
 <div class="products-box">
 
 
     <div class="products--grid">
         <div *ngFor="let product of products" class="displaybox">
-            <img width="250" [src]="product.image" alt="image">
+            <img [src]="product.image" alt="image">
             <p>{{product.name}}</p>
             <h4>{{product.price}} €</h4>
         </div>
