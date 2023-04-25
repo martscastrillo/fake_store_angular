@@ -71,37 +71,37 @@ export class AppComponent {
       image: './assets/images/camera6.jpg'
     },
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,
+      name: 'Jupiter Lumix FZ300 con Quick Strap',
+      price: 1.832,
       image: './assets/images/camera7.jpg'
     },
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,
+      name: 'ROLLEI Rolleiflex 4x4 Modelo K5 Negro',
+      price: 1.223,
             image: './assets/images/camera8.jpg'
     },
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,      image: './assets/images/camera9.jpg'
+      name: 'CMOS APS-C de 20,9 EXPEED 6a 100–51.200 ISO',
+      price: 2.022,      image: './assets/images/camera9.jpg'
     },
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,      image: './assets/images/camera10.jpg'
+      name: 'M.Zuiko ED 90mm F3.5 Macro IS PRO',
+      price: 2.699,      image: './assets/images/camera10.jpg'
     }
     ,
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,      image: './assets/images/camera11.jpg'
+      name: 'EXC+ 5 Pentax MX Película Cámara Con / Smc PENTAX M 50mm F/1.7',
+      price: 1.699,      image: './assets/images/camera11.jpg'
     }
     ,
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,      image: './assets/images/camera12.jpg'
+      name: 'Vintage Lubitel 2 Reflekta II Retro Camera 35mm',
+      price: 2.080,      image: './assets/images/camera12.jpg'
     }
     ,
     {
-      name: 'sadfdgsgfjyrstdzhfg',
-      price: 333333333,      image: './assets/images/camera13.jpg'}
+      name: 'Canon FTb QL con lente <tjv1379>FD 50mm 1:1.4',
+      price: 1.231,      image: './assets/images/camera13.jpg'}
     
   ];
   toggleButton() {
