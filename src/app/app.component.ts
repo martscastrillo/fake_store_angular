@@ -69,7 +69,40 @@ export class AppComponent {
       name: 'Evil Panasonic Lumix Dc-Gx800 (Gx850/Gf9)',
       price: 1.434,
       image: './assets/images/camera6.jpg'
+    },
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,
+      image: './assets/images/camera7.jpg'
+    },
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,
+            image: './assets/images/camera8.jpg'
+    },
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,      image: './assets/images/camera9.jpg'
+    },
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,      image: './assets/images/camera10.jpg'
     }
+    ,
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,      image: './assets/images/camera11.jpg'
+    }
+    ,
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,      image: './assets/images/camera12.jpg'
+    }
+    ,
+    {
+      name: 'sadfdgsgfjyrstdzhfg',
+      price: 333333333,      image: './assets/images/camera13.jpg'}
+    
   ];
   toggleButton() {
     this.btnDisable = !this.btnDisable;
