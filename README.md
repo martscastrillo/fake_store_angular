@@ -2,6 +2,8 @@
 
 THIS PROJECT IS LOADING 
 
+* This is muy first project in angular 
+
 <img width="2042" alt="Captura de Pantalla 2023-04-25 a las 10 25 23" src="https://user-images.githubusercontent.com/112553001/234218945-c1851d6c-95ff-4c5f-a930-74effa35b000.png">
 <img width="488" alt="Captura de Pantalla 2023-04-25 a las 10 26 24" src="https://user-images.githubusercontent.com/112553001/234219050-c94b1c95-8e12-4e38-900e-de24c2e1696a.png">
 
